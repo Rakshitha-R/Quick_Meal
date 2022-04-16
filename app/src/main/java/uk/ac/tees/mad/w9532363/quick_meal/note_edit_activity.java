@@ -27,6 +27,7 @@ public class note_edit_activity extends AppCompatActivity {
 
     EditText note_content_edit;
     FirebaseAuth auth;
+
     FirebaseUser user;
     FirebaseFirestore firestore;
     FloatingActionButton note_save_edit;
@@ -41,11 +42,13 @@ public class note_edit_activity extends AppCompatActivity {
 
         i = getIntent();
         firestore = FirebaseFirestore.getInstance();
+
         user = FirebaseAuth.getInstance().getCurrentUser();
 
 
         note_content_edit = findViewById(R.id.note_content_edit);
         note_save_edit = findViewById(R.id.note_save_edit);
+
         note_title_edit = findViewById(R.id.note_title_edit);
 
         Toolbar bar = findViewById(R.id.note_toolbar_edit);

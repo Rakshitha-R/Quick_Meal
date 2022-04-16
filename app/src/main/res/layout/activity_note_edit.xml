@@ -9,14 +9,17 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/note_toolbar_edit"
         android:layout_width="match_parent"
+
         android:layout_height="?attr/actionBarSize"
         android:background="@color/white"
         tools:ignore="MissingConstraints">
 
         <EditText
             android:id="@+id/note_title_edit"
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+
             android:hint="Re-Enter Title Here...."
             android:paddingTop="13dp"
             android:textColor="@color/black"
