@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:startColor="@color/pink"
+        android:endColor="@color/Background_login"
+        android:angle="93"/>
+
+    <corners
+        android:radius="30dp" />
+
+    <size
+        android:width="178dp"
+        android:height="62dp"/>
+
+    <stroke
+        android:width="6dp"
+        android:color="@color/white"/>
+
+</shape>

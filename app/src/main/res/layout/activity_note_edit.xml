@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".note_edit_activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/note_toolbar_edit"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/note_title_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Re-Enter Title Here...."
+            android:paddingTop="13dp"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/note_content_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/note_toolbar_edit"
+        android:background="@color/white"
+        android:gravity="left|top"
+        android:hint="Re-Enter Content Here..."
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="18sp">
+
+    </EditText>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/note_save_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/update"
+        android:backgroundTint="@color/pink"
+        app:maxImageSize="45dp"
+        android:background="@color/pink"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_gravity= "end|bottom">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+
+</RelativeLayout>

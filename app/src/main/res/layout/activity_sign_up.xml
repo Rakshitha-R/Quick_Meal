@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_pink"
+    tools:context=".Sign_Up">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="14dp"
+                android:orientation="vertical">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp"
+                    android:src="@drawable/profile"
+                    app:civ_border_color="#FFE500"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="Upload Image"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="93dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:background="#0E0E0E"
+                    android:backgroundTint="#000000" />
+
+                <EditText
+                    android:id="@+id/user_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/bgn_edit"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="User Name"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    android:padding="11dp" />
+
+                <EditText
+                    android:id="@+id/phone_Number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/bgn_edit"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Phone Number ( +44 )"
+                    android:inputType="phone"
+                    android:minHeight="48dp"
+                    android:padding="11dp" />
+
+                <EditText
+                    android:id="@+id/email_Address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/bgn_edit"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Enter Email....."
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    android:padding="11dp" />
+
+                <EditText
+                    android:id="@+id/password_Address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/bgn_edit"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="Enter Password......"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:padding="11dp" />
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="21dp"
+                    android:background="@drawable/button_grad"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Register"
+                    android:textColor="#FFD300"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="21dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="93dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="1dp"
+                        android:background="#0E0E0E"
+                        android:backgroundTint="#000000" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Or Register using"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="93dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="1dp"
+                        android:background="#0E0E0E"
+                        android:backgroundTint="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_grad"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:drawableLeft="@drawable/google"
+                        android:gravity="center"
+                        android:text="Google"
+                        android:textColor="#FFD300"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="40dp"
+                    android:id="@+id/old_user"
+                    android:padding="7dp"
+                    android:background="@drawable/bg_btn2"
+                    android:textSize="16sp"
+                    android:text="Already have an account ? \n Click Here!"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

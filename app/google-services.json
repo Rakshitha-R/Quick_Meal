@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169260605308",
+    "project_id": "quick-meal-696d7",
+    "storage_bucket": "quick-meal-696d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169260605308:android:26e667e4f834824ce1cef9",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.mad.w9532363.quick_meal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169260605308-9vdpj8i7t9kguntvjmld61l1gej676m2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZoGn0JuP8bk3vW4ANWCgFMKN3WMMClCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169260605308-9vdpj8i7t9kguntvjmld61l1gej676m2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
