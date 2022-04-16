@@ -33,8 +33,7 @@ public class Sign_In extends AppCompatActivity {
         setContentView(R.layout.activity_sign_in);
         getSupportActionBar().setTitle("              Already a User! Login Down.");
 
-        auth = FirebaseAuth.getInstance();
-        FirebaseUser user = auth.getCurrentUser();
+        auth = FirebaseAuth.getInstance(); FirebaseUser user = auth.getCurrentUser();
 
         if (user != null)
         {
