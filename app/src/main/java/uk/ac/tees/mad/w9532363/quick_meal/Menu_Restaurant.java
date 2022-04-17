@@ -39,6 +39,7 @@ public class Menu_Restaurant extends AppCompatActivity implements AdapterMenuLis
 
         Model_Restaurant_List modelRestaurantList = getIntent().getParcelableExtra("Model_Restaurant_List");
         ActionBar bar = getSupportActionBar();
+
         bar.setTitle(modelRestaurantList.getName());
         bar.setSubtitle(modelRestaurantList.getAddress());
         bar.setDisplayHomeAsUpEnabled(true);
