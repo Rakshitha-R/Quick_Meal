@@ -39,7 +39,9 @@ public class Restaurant_List extends AppCompatActivity implements AdapterRestaur
     private  void recyclerViewInit(List<Model_Restaurant_List> model_restaurant_lists){
 
         RecyclerView viewRecycler = findViewById(R.id.recyclerView);
+
         viewRecycler.setLayoutManager(new LinearLayoutManager(this));
+
         AdapterRestaurantList adapterRestaurantList = new AdapterRestaurantList(model_restaurant_lists, this);
         viewRecycler.setAdapter(adapterRestaurantList);
 
