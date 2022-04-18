@@ -26,6 +26,7 @@ public class Sign_Up extends AppCompatActivity {
     private FirebaseAuth auth;
 
     private EditText user_Name;
+
     private EditText phone_Number;
     private EditText email_Address;
     private EditText password_Address;
