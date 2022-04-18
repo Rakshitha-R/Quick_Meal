@@ -21,6 +21,7 @@ public class Forgot_Password extends AppCompatActivity {
     FirebaseAuth auth;
 
     private EditText email_Address;
+
     private Button recover_btn_password;
     private TextView back_to_login;
 
