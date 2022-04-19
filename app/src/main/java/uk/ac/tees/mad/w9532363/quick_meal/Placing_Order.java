@@ -29,6 +29,7 @@ public class Placing_Order extends AppCompatActivity {
     private PlaceOrderAdapter placeOrderAdapter;
     private SwitchCompat delivery_switch;
     private EditText name_input;
+
     private EditText address_input;
     private TextView sub_total_amount;
     private TextView delivery_charge;
