@@ -28,6 +28,7 @@ public class Introduction_Screen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_introduction_screen);
+
         getSupportActionBar().setTitle("    Select your Category Here...");
         auth = FirebaseAuth.getInstance();
 
