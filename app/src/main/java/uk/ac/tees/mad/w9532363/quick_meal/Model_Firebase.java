@@ -22,7 +22,6 @@ public class Model_Firebase {
     public void setContent(String content) {
         this.content = content;
     }
-
     public String getTitle() {
         return title;
     }
