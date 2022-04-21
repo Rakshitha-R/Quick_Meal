@@ -23,6 +23,7 @@ public class Sign_In extends AppCompatActivity {
 
     private EditText password_Address;
     private EditText email_Address;
+
     private Button sign_in;
     private TextView forgot_password;
     private TextView new_user;
