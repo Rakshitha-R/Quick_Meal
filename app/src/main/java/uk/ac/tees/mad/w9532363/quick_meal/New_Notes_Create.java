@@ -36,7 +36,6 @@ public class New_Notes_Create extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_notes_create);
-
         note_save = findViewById(R.id.note_save);
         note_content = findViewById(R.id.note_content);
         note_title = findViewById(R.id.note_title);
